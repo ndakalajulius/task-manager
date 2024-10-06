@@ -1,23 +1,21 @@
-E-commerce Application (Next.js + PostgreSQL)
-Overview
-This is a simple e-commerce application built using Next.js for the frontend and backend, and PostgreSQL as the database. The app allows users to:
+Task Manager
+Description
+A Task Manager is a tool designed to help users organize and manage tasks efficiently. This project enables users to create, update, and delete tasks. It's built using  next js and postgreSQL offering an intuitive interface for task management.
 
-View a list of products (with images, names, descriptions, and prices).
-Search and filter products by category.
-Add products to a shopping cart.
-Create an account, log in, and persist their cart between sessions.
-RESTful API for product management, cart operations, and user authentication.
 Features
-Responsive design for mobile and desktop devices.
-Product listing page with the ability to search and filter by category.
-Shopping cart functionality for logged-in users.
-User authentication with login and registration pages (using JWT).
-PostgreSQL database for persistent data storage.
-Tech Stack
-Frontend/Backend: Next.js
-Database: PostgreSQL
-Authentication: JSON Web Token (JWT)
-ORM: No ORM is used; raw SQL queries are written using the pg package.
+Add Tasks: Create new tasks with descriptions, deadlines, and priorities.
+View Tasks: List tasks by status (completed, pending) or priority.
+Edit Tasks: Update task details such as title, description, or due date.
+Delete Tasks: Remove tasks that are no longer needed.
+Task Filters: Sort tasks by due date, priority, or status.
+User Authentication: Secure user login and task management.
+
+Technologies Used
+Frontend: nextjs
+Backend: Nextjs
+Database: [PostgreSQL]
+
+
 
 ```
 
