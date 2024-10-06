@@ -18,7 +18,6 @@ Frontend/Backend: Next.js
 Database: PostgreSQL
 Authentication: JSON Web Token (JWT)
 ORM: No ORM is used; raw SQL queries are written using the pg package.
-Styling: Basic CSS or any preferred framework like Tailwind or Bootstrap.
 
 ```
 
